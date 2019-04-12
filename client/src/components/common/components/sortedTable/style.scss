@@ -1,0 +1,25 @@
+.toolBar{
+    justify-content: space-between;
+}
+
+.toolBarInner{
+    display: flex;
+    align-items: center;
+}
+
+.tableBody{
+    [class ^= "MuiTableCell-root"]{
+        text-align: center;
+    }
+}
+
+.search{
+    display: flex;
+    background-color: #e8e8e8;
+    border-radius: 4px;
+    .searchIcon{
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+    }
+}

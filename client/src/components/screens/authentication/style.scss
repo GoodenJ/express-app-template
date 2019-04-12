@@ -1,0 +1,198 @@
+.login{
+
+  margin: 50px auto;
+
+  .loadingCircleContainer {
+      /* width: 100%; */
+      display: flex;
+      justify-content: center;
+      /* height: 100%; */
+      margin: 150px auto;
+  }
+
+  .pageInner {
+    //   padding-top: 30px;
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .Form{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .loginForm{
+      margin: 0 auto;
+      min-width: 500px;
+      // margin-right: 20px;
+  }
+
+  .formHeader {
+      font-size: 24px;
+      font-weight: 600;
+      padding: 10px 0;
+  }
+
+  .formSubHeader {
+      font-weight: 600;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+  .profile {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .profileImage {
+      height: 200px;
+      min-width: 200px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      background-color: #F6F6F6;
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.16);
+  }
+
+  .profileContent{
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+  }
+
+  .subtext{
+      font-size: 12px;
+      color: #BABCBC;
+  }
+
+  .centerText{
+      align-self: center;
+  }
+
+  .btn-outlined {
+      margin: 20px 0;
+      color: #00A3CB;
+      border-color: #00A3CB;
+  }
+
+  .btn {
+      color: #00A3CB;
+  }
+
+  .uploadRow{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+  }
+
+  .Input-full {
+      display: flex;
+      width: 100%;
+  }
+
+  .Input-half-left {
+      display: flex;
+      width: 48%;
+      margin-right: 2%
+  }
+
+  .Input-half-right {
+      display: flex;
+      width: 48%;
+      margin-left: 2%
+  }
+
+  .inputRow {
+      display: flex;
+      padding: 7.5px 0;
+  }
+
+  .loginButtons{
+      margin: 50px 0 0;
+      display: flex;
+      justify-content: space-between;
+      // width: 40%;
+  }
+
+  .saveBtn{
+      min-width: 90px;
+      margin: 0 10px;
+      padding: 0 70px;
+      background-color: #00A3CB;
+  }
+
+  .cancelBtn{
+      min-width: 90px;
+      margin: 0 10px;
+      padding: 0 70px;
+      background-color: #00A3CB;
+  }
+
+}
+
+.loginPage {
+   h4 {
+       text-align: center;
+   }
+
+  .loginForm {
+      display: flex;
+      flex-direction: column;
+      // max-width: 460px;
+      margin: auto;
+
+      .fieldSection {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+
+          .label {
+              color: darkblue;
+              font-size: 16px;
+              font-weight: 500;
+              text-align: center;
+              margin: 15px 0 5px;
+              width: auto;
+          }
+
+          select {
+              width: auto;
+              align-self: center;
+          }
+
+          .inputFields {
+              align-self: center;
+              flex: 0 1 auto;
+              display: flex;
+
+              input {
+                  flex: 1 1 auto;
+                  // width: 150px;
+                  text-align: center;
+                  margin: 0 20px 10px;
+                  padding: auto;
+
+                  .email {
+                      width: 400px;
+                  }
+              }
+
+              .email {
+                  width: 350px;
+              }
+
+              .half{
+                  flex: 0 1 auto;
+                  text-align: center;
+                  margin: 0 20px 10px;
+              }
+          }
+      }
+
+      button {
+          width: 30%;
+          align-self: center;
+          margin: 20px;
+      }
+  }
+}

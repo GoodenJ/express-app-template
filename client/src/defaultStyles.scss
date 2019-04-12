@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: visible;
+}
+
+#app{
+  display: flex;
+  height: 100%;
+  overflow: visible;
+}
+
+.header{
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.pageInner{
+  display: flex;
+  flex-direction: column;
+}
+
+.loadingCircleContainer {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  /* height: 100%; */
+  margin: 150px auto;
+}
+

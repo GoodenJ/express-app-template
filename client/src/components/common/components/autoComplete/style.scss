@@ -1,0 +1,18 @@
+.autoComplete{
+    flex-grow: 1;
+    height: 250;
+    .paper{
+    position: 'absolute';
+    z-index: 1;
+    left: 0;
+    right: 0;
+    }
+    .container{
+    flex-grow: 1;
+    position: 'relative';
+    }
+    #downshift-simple-menu{
+        position: absolute;
+        z-index: 1;
+    }
+}

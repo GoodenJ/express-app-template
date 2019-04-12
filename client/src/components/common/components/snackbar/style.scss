@@ -1,0 +1,39 @@
+.snackbar-error {
+    [class *= MuiSnackbarContent] {
+        background-color: red;
+    }
+}
+
+.snackbar-success {
+    [class *= MuiSnackbarContent] {
+        background-color: green;
+    }
+}
+
+.snackbar-warning {
+    [class *= MuiSnackbarContent] {
+        background-color: yellow;
+    }
+}
+
+.snackbar-info {
+    [class *= MuiSnackbarContent] {
+        background-color: blue;
+    }
+}
+
+[class *= snackbar-] {
+    #message-id {
+        display: flex;
+        align-items: center;
+        .icon {
+            font-size: 20px;
+            margin-right: 20px;
+        }
+    }
+}
+
+// [class *= MuiSnackbarContent] {
+//     padding: 0px 200px;
+//     margin: 5px 20px;
+// }
